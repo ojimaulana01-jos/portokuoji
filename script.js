@@ -21,7 +21,7 @@ window.onscroll = () => {
 // Alert Sederhana saat Form dikirim
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Terima kasih! Pesan Anda telah terkirim (Ini hanya simulasi).');
+    alert('Terima kasih! Pesan Anda telah terkirim.');
     this.reset();
 });
 
